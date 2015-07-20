@@ -1,5 +1,3 @@
-int x=60;
-int y=50;
 
 void setup() {
   // put your setup code here, to run once:
@@ -17,55 +15,55 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-x=analogRead(A0);
-y=0.5*x;
+
+
  digitalWrite(2, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(9, HIGH); 
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(2, LOW); // turn the LED off by making the voltage LOW
   digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
   
  digitalWrite(3, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(3, LOW);    // turn the LED off by making the voltage LOW
     digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
   
  digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(7, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
     digitalWrite(7, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
   
  digitalWrite(5, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(6, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(5, LOW);    // turn the LED off by making the voltage LOW
    digitalWrite(6, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
 
 
    digitalWrite(4, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(7, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(4, LOW);    // turn the LED off by making the voltage LOW
     digitalWrite(7, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
 
  digitalWrite(3, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(3, LOW);    // turn the LED off by making the voltage LOW
     digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
 
  digitalWrite(2, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(9, HIGH); 
-  delay(x);              // wait for a second
+  delay(analogRead(A0));              // wait for a second
   digitalWrite(2, LOW); // turn the LED off by making the voltage LOW
   digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
-  delay(y);              // wait for a second
+  delay(0.5*analogRead(A0));              // wait for a second
 }
